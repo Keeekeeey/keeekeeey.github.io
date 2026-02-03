@@ -18,13 +18,13 @@ return (
                       </div>
                     <div>
                       <img
-                      src="https://i.pinimg.com/736x/a6/70/62/a67062073c4089ef2b624fa3d411251e.jpg">
+                      src="https://i.pinimg.com/1200x/63/4d/7f/634d7f5c1adf3091dd8d7625545b3c94.jpg">
                       </img>
                     </div>
                   </div>
                   <div className="flex justify-center items-center gap-2">
                   </div>
-                  <div className="min-h-10 bg-[url(https://i.pinimg.com/1200x/04/c4/99/04c499e22cdf26db8a48f17372b04bb8.jpg)]">
+                  <div className="min-h-10 bg-[url(https://i.pinimg.com/736x/49/22/b7/4922b7524905b3e25d32a8aa50133280.jpg)]">
                   </div>
                   <div className="rounded border bg-window-foreground min-h-5 p-5 px-10">
                     <p className="font-bold">Sound like a fit? </p>
