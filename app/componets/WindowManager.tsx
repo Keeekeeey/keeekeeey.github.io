@@ -38,12 +38,14 @@ export default function WindowManager() {
       <div className="p-4 flex flex-col gap-2">
         <button 
           onClick={() => addWindow('/ProjectTable', <ProjectTable/>)}
-          className="px-4 py-2 bg-foreground-02 border rounded">
+          className="px-4 py-2 bg-foreground-02 border rounded flex flex-col items-center">
+            <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/10469/10469228.png'></img>
           My Projects
         </button>
         <button 
           onClick={() => addWindow('/AboutMe', <AboutMePage/>)}
-          className="px-4 py-2 bg-foreground-02 border rounded">
+          className="px-4 py-2 bg-foreground-02 border rounded flex flex-col items-center">
+            <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/10469/10469228.png'></img>
           About Me
         </button>
       </div>
