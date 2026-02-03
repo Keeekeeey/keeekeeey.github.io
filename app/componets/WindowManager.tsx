@@ -34,15 +34,15 @@ export default function WindowManager() {
   };
 
   return (
-    <div className="">
-      <div className="p-4 flex items-center gap-2">
+    <div className="max-w-40 max-h-full">
+      <div className="p-4 flex flex-col gap-2">
         <button 
           onClick={() => addWindow('/ProjectTable', <ProjectTable/>)}
           className="px-4 py-2 bg-foreground-02 border rounded">
           My Projects
         </button>
         <button 
-          onClick={() => addWindow('/other', <AboutMePage/>)}
+          onClick={() => addWindow('/AboutMe', <AboutMePage/>)}
           className="px-4 py-2 bg-foreground-02 border rounded">
           About Me
         </button>
