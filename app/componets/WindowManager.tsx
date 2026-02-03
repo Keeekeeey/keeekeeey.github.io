@@ -3,6 +3,7 @@ import { useState } from 'react';
 import DraggableWindow from './DraggableWindow';
 import ProjectTable from '../pages/project-table';
 import AboutMePage from '../pages/about-me';
+import HomePage from '../pages/home-page';
 
 
 interface Window {
@@ -34,17 +35,25 @@ export default function WindowManager() {
   };
 
   return (
-    <div className="">
-      <div className="p-4 flex items-center gap-2">
+    <div className="max-w-40 max-h-full">
+      <div className="p-4 flex flex-col gap-2">
         <button 
           onClick={() => addWindow('/ProjectTable', <ProjectTable/>)}
-          className="px-4 py-2 bg-foreground-02 border rounded">
+          className="px-4 py-2 bg-foreground-02 border rounded flex flex-col items-center">
+            <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/10469/10469228.png'></img>
           My Projects
         </button>
         <button 
-          onClick={() => addWindow('/other', <AboutMePage/>)}
-          className="px-4 py-2 bg-foreground-02 border rounded">
+          onClick={() => addWindow('/AboutMe', <AboutMePage/>)}
+          className="px-4 py-2 bg-foreground-02 border rounded flex flex-col items-center">
+            <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/10469/10469228.png'></img>
           About Me
+        </button>
+        <button 
+          onClick={() => addWindow('/HomePage', <HomePage/>)}
+          className="px-4 py-2 bg-foreground-02 border rounded flex flex-col items-center">
+            <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/10469/10469228.png'></img>
+          Home Page
         </button>
       </div>
 
