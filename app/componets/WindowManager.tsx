@@ -36,25 +36,31 @@ export default function WindowManager() {
 
   return (
     <div className="max-w-40 max-h-full">
-      <div className="p-4 flex flex-col gap-2 text-black font-bold">
+      <div className="p-4 flex flex-col gap-2 text-black font-bold ">
         <button 
           onClick={() => addWindow('/ProjectTable', <ProjectTable/>)}
-          className="px-4 py-2 flex flex-col items-center">
+          className=" hover:cursor-pointer px-4 py-2 flex flex-col items-center">
             <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/10469/10469228.png'></img>
           My Projects
         </button>
         <button 
           onClick={() => addWindow('/AboutMe', <AboutMePage/>)}
-          className="px-4 py-2 flex flex-col items-center">
+          className=" hover:cursor-pointer px-4 py-2 flex flex-col items-center">
             <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/10469/10469228.png'></img>
           About Me
         </button>
         <button 
           onClick={() => addWindow('/HomePage', <HomePage/>)}
-          className="px-4 py-2 d flex flex-col items-center">
+          className=" hover:cursor-pointer px-4 py-2 d flex flex-col items-center">
             <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/10469/10469228.png'></img>
           Home Page
         </button>
+        <a href="https://docs.google.com/document/d/15v0Xzpo4t8l4ANTc3FjpkujUPwb9Fymqho-_yMLDHHM/edit?usp=sharing">
+        <button className="  hover:cursor-pointer px-4 py-2 flex flex-col items-center">
+            <img className = "max-h-10 max-w-10" src='https://cdn-icons-png.flaticon.com/128/9622/9622995.png'></img>
+            My Resume - TEMP LINK
+            </button>
+        </a>
       </div>
 
       {windows.map((window) => (

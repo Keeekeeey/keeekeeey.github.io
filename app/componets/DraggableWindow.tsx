@@ -35,7 +35,7 @@ export default function DraggableWindow({
           </div>
           <button 
             onClick={onClose}
-            className="bg-foreground-03 rounded p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-accent">
+            className=" ml-auto flex flex-row rounded p-2 hover:cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-accent">
             <img 
               className='max-h-5 max-w-5'
               src="https://cdn-icons-png.flaticon.com/128/10490/10490302.png"
