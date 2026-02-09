@@ -57,7 +57,7 @@ export default function AboutMePage (){
                         </a>
                         <a href='https://www.linkedin.com/company/koin-games/posts/?feedView=all'>
                         <button className="hover:cursor-pointer bg-window-header-light rounded p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-accent">
-                            <img 
+                            <img
                             alt ='Koin Icon'
                             className="max-h-10 max-w-10 min-h-10 min-w-10" src='https://s3.amazonaws.com/cdn.kg.io/logos/logo-small.png'></img>
                         </button>
