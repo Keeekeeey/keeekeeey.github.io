@@ -6,9 +6,9 @@ export default function AboutMePage (){
         <div className="w-full h-full overflow-y-auto sm:min-h-90 sm:min-w-90 lg:max-h-200 lg:max-w-300">
             <div className="flex flex-row border-2 rounded p-2 ">
                 <div className="">
-                <header className="font-bold">My name is Kira Smith and I'm a developer seeking entry-level opportunities
+                <header className="font-bold lg:text-lg md:text-md ">My name is Kira Smith and I'm a developer seeking entry-level opportunities
                     in software engineering.</header>
-                <div className="float-left mr-4 mb-4 w-32 h-32 min-h-30 min-w-30 rounded">
+                <div className="float-left mr-4 mb-4 min-h-60 min-w-60 max-h-100 max-w-100 rounded">
                     <img src='https://i.pinimg.com/736x/2d/1b/7a/2d1b7a9ec2057f97fe7107b210cb2615.jpg'></img>
                 </div>
                 <p>
@@ -36,7 +36,7 @@ export default function AboutMePage (){
                 <div className="basis-2/3 bg-window-foreground">
                         <SkillsTable/>
                 </div>
-                <div className="basis-1/2 rounded bg-window-foreground">
+                <div className="basis-1/2 border-l rounded bg-window-foreground">
                     <div className="font-bold p-3 text-center">Companies I've worked for</div>
                     <div className="flex flex-row p-2 border-b">
                     <div className="basis-1/4"></div>

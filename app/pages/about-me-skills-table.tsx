@@ -1,6 +1,6 @@
 export default function SkillsTable (){
     return(
-        <div className="p-2 overflow-y-auto border-r">
+        <div className="p-2 overflow-y-auto">
             <div className="border-b p-1"><strong>Languages:</strong> 
             <div className="p-1 ">Python, C#, TypeScript, JavaScript</div>
             </div>
