@@ -1,7 +1,7 @@
 export default function ProjectTable() {
 
     return (
-         <div className="overflow-y-auto overflow-x-auto max-h-96 max-w-90 rounded border-2">
+         <div className="overflow-y-auto overflow-x-auto max-h-100 sm:min-h-96 sm:min-w-100 lg:max-w-200 rounded border-2">
             <table className="border-collapse min-w-full ">
             <thead>
             </thead>

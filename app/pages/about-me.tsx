@@ -3,7 +3,7 @@ import SkillsTable from "./about-me-skills-table";
 export default function AboutMePage (){
 
     return(
-        <div className="w-full h-full max-w-160">
+        <div className="w-full h-full overflow-y-auto sm:min-h-90 sm:min-w-90 lg:max-h-200 lg:max-w-300">
             <div className="flex flex-row border-2 rounded p-2 ">
                 <div className="">
                 <header className="font-bold">My name is Kira Smith and I'm a developer seeking entry-level opportunities
@@ -33,12 +33,12 @@ export default function AboutMePage (){
             </div>
             <div className="p-2 min-h-10 bg-[url(https://i.pinimg.com/736x/49/22/b7/4922b7524905b3e25d32a8aa50133280.jpg)]"></div>
             <div className="flex flex-row border-2">
-                <div className="basis-2/3 rounded bg-window-foreground">
+                <div className="basis-2/3 bg-window-foreground">
                         <SkillsTable/>
                 </div>
-                <div className="basis-1/2 rounded border border-dashed bg-window-foreground">
-                    <div className="font-bold border border-dashed p-3 text-center">Companies I've worked for</div>
-                    <div className="flex flex-row p-2 border-b border-dashed">
+                <div className="basis-1/2 rounded bg-window-foreground">
+                    <div className="font-bold p-3 text-center">Companies I've worked for</div>
+                    <div className="flex flex-row p-2 border-b">
                     <div className="basis-1/4"></div>
                     <div className="basis-2/4 flex flex-row justify-center items-center text-center gap-2">
                     <a href='https://www.linkedin.com/company/apple/posts/?feedView=all'>
@@ -66,7 +66,7 @@ export default function AboutMePage (){
                     </div>
                     <div className="basis-1/4"></div>
                     </div>
-                    <div className="font-bold border-b border-dashed p-4 text-center justify-center">
+                    <div className="font-bold border-b p-4 text-center justify-center">
                         <a href="https://docs.google.com/document/d/15v0Xzpo4t8l4ANTc3FjpkujUPwb9Fymqho-_yMLDHHM/edit?usp=sharing">
                         My Resume - TEMP LINK
                         </a>

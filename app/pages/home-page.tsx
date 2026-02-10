@@ -5,7 +5,7 @@ import WindowManager from "../componets/WindowManager";
 export default function HomePage() {
 
 return (
-    <div className="w-full h-full max-w-150">
+    <div className="w-full h-full overflow-y-auto sm:min-h-60 sm:min-w-60 lg:max-h-200 lg:max-w-250">
           <div className="basis-2/4 rounded p-2 bg-window-background ">
               <div className="p-4 min-h-120">
                  <p className="border font-bold bg-window-foreground p-2 ">If you're looking for a problem solver, look no further!</p>
