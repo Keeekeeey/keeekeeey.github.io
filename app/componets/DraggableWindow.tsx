@@ -34,8 +34,11 @@ export default function DraggableWindow({
             <span className="text-sm">{title}</span>
           </div>
           <button 
-            onClick={onClose}
-            className="lg:ml-auto flex flex-row rounded p-2 justify-center
+            onClick={(e) => {
+              e.stopPropagation()
+              onClose()
+            }}
+            className="ml-auto flex flex-row rounded p-2 justify-center
             hover:cursor-pointer transition delay-150 duration-300 ease-in-out 
             hover:-translate-y-1 hover:scale-110 hover:bg-accent">
             <img 

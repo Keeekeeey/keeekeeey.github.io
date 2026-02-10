@@ -6,7 +6,7 @@ import SkillsTable from "./about-me-skills-table";
 export default function HomePage() {
 
 return (
-    <div className="w-full h-full overflow-y-auto sm:min-h-60 sm:min-w-60 lg:max-h-200 lg:max-w-250">
+    <div className="overflow-y-auto w-full max-w-3xl mx-auto p-4">
           <div className="basis-2/4 rounded p-2 bg-window-background ">
               <div className="p-4 min-h-120">
                  <p className="border font-bold bg-window-foreground p-2 lg:text-lg md:text-md">If you're looking for a problem solver, look no further!</p>
