@@ -17,8 +17,8 @@ export default function MobileLandingPage(){
     return(
         <div 
       style={{ '--bg-image': `url(${background.src})` } as React.CSSProperties}
-      className=" bg-cover bg-center">
-        <div className="p-2 overflow-x-auto max-h-[90vh]">
+      className=" bg-[image:var(--bg-image)] bg-cover bg-center">
+        <div className="p-2 overflow-x-auto max-h-screen">
             <div className=" border-2 bg-window-background ">
                 <div className="
                 sticky bg-linear-180 from-window-header-light to-window-header-dark px-2">
