@@ -36,7 +36,7 @@ export default function WindowManager() {
   };
 
   return (
-    <div className="border items-start flex">
+    <div className=" items-start flex">
       <div className="p-4 flex-col gap-2 text-black font-bold ">
         <button 
           onClick={() => addWindow('/ProjectTable', <ProjectTable/>)}

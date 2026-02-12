@@ -3,7 +3,7 @@ import SkillsTable from "./about-me-skills-table";
 export default function AboutMePage (){
 
     return(
-        <div className="p-4 md:overflow-auto">
+        <div className="p-4 md:overflow-auto md:max-w-200">
             <div className="flex flex-row md:border-2 rounded p-2 ">
                 <div className="">
                 <header className="font-bold lg:text-lg md:text-md bg-window-foreground p-2 ">My name is Kira Smith and I'm a developer seeking entry-level opportunities
